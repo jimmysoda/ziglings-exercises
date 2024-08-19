@@ -28,7 +28,7 @@ pub fn main() void {
 
     // (Problem 2)
     // Use the array repeat '**' operator to make "ha ha ha ".
-    const laugh = "ha " ???;
+    const laugh = "ha " ** 3;
 
     // (Problem 3)
     // Use the array concatenation '++' operator to make "Major Tom".
