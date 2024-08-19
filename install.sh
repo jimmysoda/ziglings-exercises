@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ZIG_VERSION="${VERSION:-"latest"}"
+ZIG_VERSION="${VERSION:-"master"}"
 
 set -e
 
