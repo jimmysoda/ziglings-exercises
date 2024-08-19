@@ -27,7 +27,7 @@ pub fn main() void {
     // (Problem 1)
     // This "const" is going to cause a problem later - can you see what it is?
     // How do we fix it?
-    const some_primes = [_]u8{ 1, 3, 5, 7, 11, 13, 17, 19 };
+    var some_primes = [_]u8{ 1, 3, 5, 7, 11, 13, 17, 19 };
 
     // Individual values can be set with '[]' notation.
     // Example: This line changes the first prime to 2 (which is correct):
