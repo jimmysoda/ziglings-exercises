@@ -11,7 +11,7 @@
 //
 const std = @import("std");
 
-function main() void {
+pub fn main() void {
     var i: u8 = 1;
     const stop_at: u8 = 16;
 
