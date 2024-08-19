@@ -9,7 +9,7 @@
 // Let's go from 1 to 16. This has been started for you, but there
 // are some problems. :-(
 //
-const std = import standard library;
+const std = @import("std");
 
 function main() void {
     var i: u8 = 1;
