@@ -24,7 +24,7 @@ pub fn main() void {
     // (Problem 1)
     // Use array square bracket syntax to get the letter 'd' from
     // the string "stardust" above.
-    const d: u8 = ziggy[???];
+    const d: u8 = ziggy[4];
 
     // (Problem 2)
     // Use the array repeat '**' operator to make "ha ha ha ".
